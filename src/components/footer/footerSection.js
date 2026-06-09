@@ -26,7 +26,7 @@ export const footerSection = () => {
 
             <button data-name="Youtube" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-youtube-fill"></i></button>
 
-            <button data-name="Github" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-github-fill"></i></button>
+            <a href="https://github.com/sarvjeet-singh-dev/nextbyte-e-commerce.git" data-name="Github" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-github-fill"></i></a>
 
           </div>
         </div>
