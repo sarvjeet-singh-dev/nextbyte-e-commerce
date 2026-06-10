@@ -84,8 +84,6 @@ export const productEvents = () => {
             storage.set("productDetails",detailsPageState.itemDetails);
             
             window.location.href = "/src/pages/productDetailsPage.html";
-    
-            showNotification("Product Successfully Added");
         };
 
     });
