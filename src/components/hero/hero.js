@@ -10,8 +10,8 @@ export const Hero = () => {
         <h1 class="text-5xl lg:text-7xl font-bold leading-tight">Premium Tech For Modern Creators</h1>
         <p class="max-w-xl">Discover premium laptops, smartphones, tablets, and accessories designed for creators, professionals, and digital lifestyles.</p>
         <div class="mt-6">
-            <a href="/nextbyte-e-commerce/index.html#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Shop Now</a>
-            <a href="/nextbyte-e-commerce/index.html#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Explore Deals</a>
+            <a href="/nextbyte-e-commerce#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Shop Now</a>
+            <a href="/nextbyte-e-commerce#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Explore Deals</a>
         </div>
     </section>
     <section id="hero-right-section">

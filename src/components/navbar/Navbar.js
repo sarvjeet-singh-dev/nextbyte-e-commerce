@@ -16,7 +16,7 @@ export const Navbar = () => {
           </button>
 
           <a
-            href="/nextbyte-e-commerce/index.html"
+            href="/nextbyte-e-commerce"
             class="text-red-400 font-bold tracking-wide text-lg sm:text-xl whitespace-nowrap"
           >
             ⚡ NEXBYTE
@@ -26,19 +26,19 @@ export const Navbar = () => {
           <nav class="hidden lg:block">
             <ul class="flex items-center gap-8 ml-4">
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html">Home</a>
+                <a href="/nextbyte-e-commerce">Home</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
+                <a href="/nextbyte-e-commerce#featured-products">Products</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
+                <a href="/nextbyte-e-commerce#categories">Categories</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
+                <a href="/nextbyte-e-commerce#featured-products">Deals</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
+                <a href="/nextbyte-e-commerce#why-choose-us">About</a>
               </li>
             </ul>
           </nav>
@@ -109,19 +109,19 @@ export const Navbar = () => {
       >
         <ul class="flex flex-col items-center gap-6 py-6">
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html">Home</a>
+            <a href="/nextbyte-e-commerce">Home</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
+            <a href="/nextbyte-e-commerce#featured-products">Products</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
+            <a href="/nextbyte-e-commerce#categories">Categories</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
+            <a href="/nextbyte-e-commerce#featured-products">Deals</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
+            <a href="/nextbyte-e-commerce#why-choose-us">About</a>
           </li>
         </ul>
       </div>
