@@ -101,7 +101,7 @@ export const navEvents = () => {
 
                 storage.set("productDetails",productCopy);
 
-                window.location.href = "/src/pages/productDetailsPage.html";
+                window.location.href = "/nextbyte-e-commerce/src/pages/productDetailsPage.html";
             };
 
         });
