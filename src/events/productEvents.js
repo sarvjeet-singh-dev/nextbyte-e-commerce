@@ -83,7 +83,7 @@ export const productEvents = () => {
     
             storage.set("productDetails",detailsPageState.itemDetails);
             
-            window.location.href = "/src/pages/productDetailsPage.html";
+            window.location.href = "/nextbyte-e-commerce/src/pages/productDetailsPage.html";
         };
 
     });

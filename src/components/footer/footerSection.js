@@ -52,11 +52,11 @@ export const footerSection = () => {
           <h4 class="text-xl font-semibold text-white">Support</h4>
 
           <div class="flex flex-col gap-3">
-            <a href="/index.html#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
-            <a href="/index.html#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
+            <a href="/nextbyte-e-commerce/index.html#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
           </div>
 
         </div>
