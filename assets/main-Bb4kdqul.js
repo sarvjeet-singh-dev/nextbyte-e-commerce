@@ -107,7 +107,7 @@
                 <button id="proceed-to-checkout" class="w-full mt-8 bg-red-500 hover:bg-red-600 text-white py-4 rounded-xl font-semibold transition-all duration-300 active:scale-95 cursor-pointer">Proceed To Checkout</button>
 
                 <!-- Continue Shopping -->
-                <a href="/nextbyte-e-commerce/index.html#featured-products" class="w-full block text-center mt-4 border border-white/10 hover:border-red-400 py-4 rounded-xl transition-all duration-300 cursor-pointer">Continue Shopping</a>
+                <a href="/nextbyte-e-commerce#featured-products" class="w-full block text-center mt-4 border border-white/10 hover:border-red-400 py-4 rounded-xl transition-all duration-300 cursor-pointer">Continue Shopping</a>
 
             </div>
 
@@ -224,7 +224,7 @@
           </button>
 
           <a
-            href="/nextbyte-e-commerce/index.html"
+            href="/nextbyte-e-commerce"
             class="text-red-400 font-bold tracking-wide text-lg sm:text-xl whitespace-nowrap"
           >
             ⚡ NEXBYTE
@@ -234,19 +234,19 @@
           <nav class="hidden lg:block">
             <ul class="flex items-center gap-8 ml-4">
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html">Home</a>
+                <a href="/nextbyte-e-commerce">Home</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
+                <a href="/nextbyte-e-commerce#featured-products">Products</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
+                <a href="/nextbyte-e-commerce#categories">Categories</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
+                <a href="/nextbyte-e-commerce#featured-products">Deals</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
+                <a href="/nextbyte-e-commerce#why-choose-us">About</a>
               </li>
             </ul>
           </nav>
@@ -317,19 +317,19 @@
       >
         <ul class="flex flex-col items-center gap-6 py-6">
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html">Home</a>
+            <a href="/nextbyte-e-commerce">Home</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
+            <a href="/nextbyte-e-commerce#featured-products">Products</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
+            <a href="/nextbyte-e-commerce#categories">Categories</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
+            <a href="/nextbyte-e-commerce#featured-products">Deals</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
+            <a href="/nextbyte-e-commerce#why-choose-us">About</a>
           </li>
         </ul>
       </div>
@@ -344,8 +344,8 @@
         <h1 class="text-5xl lg:text-7xl font-bold leading-tight">Premium Tech For Modern Creators</h1>
         <p class="max-w-xl">Discover premium laptops, smartphones, tablets, and accessories designed for creators, professionals, and digital lifestyles.</p>
         <div class="mt-6">
-            <a href="/nextbyte-e-commerce/index.html#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Shop Now</a>
-            <a href="/nextbyte-e-commerce/index.html#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Explore Deals</a>
+            <a href="/nextbyte-e-commerce#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Shop Now</a>
+            <a href="/nextbyte-e-commerce#featured-products" class="px-6 py-3 transition-all duration-300 border hover:bg-red-500 hover:text-white active:scale-95 cursor-pointer">Explore Deals</a>
         </div>
     </section>
     <section id="hero-right-section">
@@ -377,7 +377,7 @@
           <p class=" p-1">Fast Worldwide Shipping</p>
         </div>
         <div class="w-full">
-          <a href="/nextbyte-e-commerce/index.html#featured-products" class="border p-2 mt-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Products</a>
+          <a href="/nextbyte-e-commerce#featured-products" class="border p-2 mt-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Products</a>
         </div>
       </section>
 
@@ -394,8 +394,8 @@
           <h3 class="text-2xl md:text-4xl lg:text-6xl leading-tight font-bold">Upgrade Your Digital Lifestyle</h3>
           <p class="text-gray-400">Explore carefully curated technology products built for productivity, entertainment, and modern digital experiences.</p>
           <div class="flex gap-2 justify-center md:justify-start">
-            <a href="/nextbyte-e-commerce/index.html#categories" class="border p-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Collection</a>
-            <a href="/nextbyte-e-commerce/index.html#featured-products" class="border p-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">View Deals</a>
+            <a href="/nextbyte-e-commerce#categories" class="border p-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Collection</a>
+            <a href="/nextbyte-e-commerce#featured-products" class="border p-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">View Deals</a>
           </div>
         </section>
         <section id="promo-banner-right-section" class="flex items-center justify-center">
@@ -492,7 +492,7 @@
                 </div>
             `).join(``)}
         </div>
-    `,V=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}let n=e();F.filterdProducts.length===0?n.productsCardGrid.innerHTML=R():n.productsCardGrid.innerHTML=L()},H=()=>{let t=e();F.selectedCategory===`Creator Gear`||F.selectedCategory===`Portable Tech`?t.productsFilter.value=`Accessories`:t.productsFilter.value=F.selectedCategory,t.productsFilter.dispatchEvent(new Event(`change`))},U=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}t.featuredProducts.innerHTML=z();let n=e();n.productsCardGrid.innerHTML=R()},ie=()=>{e().categories.addEventListener(`click`,e=>{let t=e.target.closest(`.categories-cards`);t&&(F.selectedCategory=t.dataset.name,H(),window.location.href=`#featured-products`)})},W=()=>{e(),document.addEventListener(`click`,e=>{let t=e.target.closest(`.footer-links`);t&&(e.preventDefault(),F.selectedCategory=t.dataset.category,H(),window.location.href=`/nextbyte-e-commerce/index.html#featured-products`);let n=e.target.closest(`.social-links`);if(n){e.preventDefault();let t=n.dataset.name;A(`${t} Clicked!`,` Implementation coming soon.`,3e3)}})},G={itemDetails:void 0,itemMainImage:void 0},K=()=>G.itemDetails.images.map((e,t)=>`
+    `,V=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}let n=e();F.filterdProducts.length===0?n.productsCardGrid.innerHTML=R():n.productsCardGrid.innerHTML=L()},H=()=>{let t=e();F.selectedCategory===`Creator Gear`||F.selectedCategory===`Portable Tech`?t.productsFilter.value=`Accessories`:t.productsFilter.value=F.selectedCategory,t.productsFilter.dispatchEvent(new Event(`change`))},U=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}t.featuredProducts.innerHTML=z();let n=e();n.productsCardGrid.innerHTML=R()},ie=()=>{e().categories.addEventListener(`click`,e=>{let t=e.target.closest(`.categories-cards`);t&&(F.selectedCategory=t.dataset.name,H(),window.location.href=`#featured-products`)})},W=()=>{e(),document.addEventListener(`click`,e=>{let t=e.target.closest(`.footer-links`);t&&(e.preventDefault(),F.selectedCategory=t.dataset.category,H(),window.location.href=`/nextbyte-e-commerce#featured-products`);let n=e.target.closest(`.social-links`);if(n){e.preventDefault();let t=n.dataset.name;A(`${t} Clicked!`,` Implementation coming soon.`,3e3)}})},G={itemDetails:void 0,itemMainImage:void 0},K=()=>G.itemDetails.images.map((e,t)=>`
         <div class="w-20 h-20 border rounded-xl">
             <img src="${e}" alt="Product Image ${t+1}" loading="lazy" class="small-product-image">
         </div>
