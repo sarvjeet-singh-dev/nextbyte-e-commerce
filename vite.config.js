@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
 
-  base :`//`,
+  base :`/nextbyte-e-commerce/`,
   plugins: [tailwindcss()],
 
   build: {
