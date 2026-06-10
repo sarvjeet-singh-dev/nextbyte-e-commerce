@@ -12,7 +12,7 @@ export const whyChooseUsSection = () => {
           <p class=" p-1">Fast Worldwide Shipping</p>
         </div>
         <div class="w-full">
-          <a href="/nextbyte-e-commerce#featured-products" class="border p-2 mt-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Products</a>
+          <a href="/nextbyte-e-commerce/index.html#featured-products" class="border p-2 mt-2 active:scale-95 cursor-pointer hover:bg-red-500 transition-all duration-300">Explore Products</a>
         </div>
       </section>
 
