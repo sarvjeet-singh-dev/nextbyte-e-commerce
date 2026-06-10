@@ -49,6 +49,22 @@ The system is designed so that products, categories, and content can be managed 
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](/public/EcommerceMainPage.png)
+
+### Home Page Products
+![Home Page](/public/EcommerceProducts.png)
+
+### Product Details Page
+![Home Page](/public/EcommerceDetails.png)
+
+### Product Details Page
+![Home Page](/public/EcommerceCart.png)
+
+---
+
 ## Architecture Design
 
 ### Data Layer
