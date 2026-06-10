@@ -171,11 +171,11 @@
           <h4 class="text-xl font-semibold text-white">Support</h4>
 
           <div class="flex flex-col gap-3">
-            <a href="/index.html#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
-            <a href="/index.html#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
-            <a href="/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
+            <a href="/nextbyte-e-commerce/index.html#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
           </div>
 
         </div>
@@ -234,19 +234,19 @@
           <nav class="hidden lg:block">
             <ul class="flex items-center gap-8 ml-4">
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/index.html">Home</a>
+                <a href="/nextbyte-e-commerce/index.html">Home</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/index.html#featured-products">Products</a>
+                <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/index.html#categories">Categories</a>
+                <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/index.html#featured-products">Deals</a>
+                <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
               </li>
               <li class="hover:text-red-400 transition-all duration-300">
-                <a href="/index.html#why-choose-us">About</a>
+                <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
               </li>
             </ul>
           </nav>
@@ -277,7 +277,7 @@
         <!-- Cart -->
         <div class="relative shrink-0">
           <a
-            href="/src/pages/cartPage.html"
+            href="/nextbyte-e-commerce/src/pages/cartPage.html"
             class="text-xl active:scale-95 cursor-pointer inline-block"
             aria-label="View shopping cart"
           >
@@ -317,19 +317,19 @@
       >
         <ul class="flex flex-col items-center gap-6 py-6">
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/index.html">Home</a>
+            <a href="/nextbyte-e-commerce/index.html">Home</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/index.html#featured-products">Products</a>
+            <a href="/nextbyte-e-commerce/index.html#featured-products">Products</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/index.html#categories">Categories</a>
+            <a href="/nextbyte-e-commerce/index.html#categories">Categories</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/index.html#featured-products">Deals</a>
+            <a href="/nextbyte-e-commerce/index.html#featured-products">Deals</a>
           </li>
           <li class="closing-nav-outside hover:text-red-400 transition-all duration-300 text-lg">
-            <a href="/index.html#why-choose-us">About</a>
+            <a href="/nextbyte-e-commerce/index.html#why-choose-us">About</a>
           </li>
         </ul>
       </div>
@@ -492,7 +492,7 @@
                 </div>
             `).join(``)}
         </div>
-    `,V=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}let n=e();F.filterdProducts.length===0?n.productsCardGrid.innerHTML=R():n.productsCardGrid.innerHTML=L()},H=()=>{let t=e();F.selectedCategory===`Creator Gear`||F.selectedCategory===`Portable Tech`?t.productsFilter.value=`Accessories`:t.productsFilter.value=F.selectedCategory,t.productsFilter.dispatchEvent(new Event(`change`))},U=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}t.featuredProducts.innerHTML=z();let n=e();n.productsCardGrid.innerHTML=R()},ie=()=>{e().categories.addEventListener(`click`,e=>{let t=e.target.closest(`.categories-cards`);t&&(F.selectedCategory=t.dataset.name,H(),window.location.href=`#featured-products`)})},W=()=>{e(),document.addEventListener(`click`,e=>{let t=e.target.closest(`.footer-links`);t&&(e.preventDefault(),F.selectedCategory=t.dataset.category,H(),window.location.href=`#featured-products`);let n=e.target.closest(`.social-links`);if(n){e.preventDefault();let t=n.dataset.name;A(`${t} Clicked!`,` Implementation coming soon.`,3e3)}})},G={itemDetails:void 0,itemMainImage:void 0},K=()=>G.itemDetails.images.map((e,t)=>`
+    `,V=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}let n=e();F.filterdProducts.length===0?n.productsCardGrid.innerHTML=R():n.productsCardGrid.innerHTML=L()},H=()=>{let t=e();F.selectedCategory===`Creator Gear`||F.selectedCategory===`Portable Tech`?t.productsFilter.value=`Accessories`:t.productsFilter.value=F.selectedCategory,t.productsFilter.dispatchEvent(new Event(`change`))},U=()=>{let t=e();if(F.isLoading){t.featuredProducts.innerHTML=B();return}if(F.products.length===0){t.featuredProducts.innerHTML=`<p>No Products Found</p>`;return}t.featuredProducts.innerHTML=z();let n=e();n.productsCardGrid.innerHTML=R()},ie=()=>{e().categories.addEventListener(`click`,e=>{let t=e.target.closest(`.categories-cards`);t&&(F.selectedCategory=t.dataset.name,H(),window.location.href=`#featured-products`)})},W=()=>{e(),document.addEventListener(`click`,e=>{let t=e.target.closest(`.footer-links`);t&&(e.preventDefault(),F.selectedCategory=t.dataset.category,H(),window.location.href=`/nextbyte-e-commerce#featured-products`);let n=e.target.closest(`.social-links`);if(n){e.preventDefault();let t=n.dataset.name;A(`${t} Clicked!`,` Implementation coming soon.`,3e3)}})},G={itemDetails:void 0,itemMainImage:void 0},K=()=>G.itemDetails.images.map((e,t)=>`
         <div class="w-20 h-20 border rounded-xl">
             <img src="${e}" alt="Product Image ${t+1}" loading="lazy" class="small-product-image">
         </div>
@@ -610,4 +610,4 @@
         </div>
             <p class="text-gray-300 leading-relaxed">${e.comment}</p>
 
-        </div>`},Y=()=>(G.itemDetails=O.get(`productDetails`),G.itemDetails.reviews.map(e=>J(e)).join(``)),ae=()=>{let t=e();t.headerContainer.innerHTML=s(),t.productsDetails.innerHTML=q(),t.footerSection.innerHTML=o();let n=e();n.reviewsCardContainer.innerHTML=Y()},X=()=>{let t=e();document.addEventListener(`click`,e=>{if(e.target.closest(`.closing-nav-outside`)){c.isMenuOpen=!1,C();return}t.headerContainer.contains(e.target)||(c.isMenuOpen=!1,C()),e.target.closest(`.search-input`)||(c.isSearchMenuOpen=!1,S())}),t.menuButton.addEventListener(`click`,()=>{c.isMenuOpen=!c.isMenuOpen,C()}),t.searchInput.forEach(e=>{e.addEventListener(`focus`,()=>{c.isSearchMenuOpen=!0,F.products=O.get(`products`),S()}),e.addEventListener(`input`,e=>{let t=e.target.value.trim().toLowerCase();if(c.searchQuery=t,t===``){c.searchResult=[],S();return}c.searchResult=F.products.filter(e=>{let n=e.title.toLowerCase().includes(t),r=e.category.toLowerCase().includes(t);return n||r}),S()})}),t.searchResult.forEach(e=>{e.addEventListener(`click`,e=>{let t=e.target.closest(`.search-result-cards`),n=Number(t.dataset.id),r=c.searchResult.find(e=>e.id===n);if(r){let e={...r};G.itemDetails=e,O.set(`productDetails`,e),window.location.href=`/src/pages/productDetailsPage.html`}})})},oe=()=>{let t=e();t.newsletterForm.addEventListener(`submit`,e=>{e.preventDefault(),A(`Subscribed!`,`Thank you! ${t.newsLetterInput.value.trim()} has been successfully registered.`,2e3),t.newsletterForm.reset()})},se=()=>{let n=e();n.addToCart.onclick=()=>{let e=G.itemDetails,n={...e,qty:1};t.cartItems.find(t=>t.id===e.id)?(t.cartItems=t.cartItems.map(t=>t.id===e.id?{...t,qty:t.qty+1}:t),A(`Product Again Added To Cart`,`${n.title}`)):(t.cartItems=[...t.cartItems,n],A(`Added To Cart`,`${n.title}`)),O.set(`cartItems`,t.cartItems),w()},n.imageGallary.onpointerover=e=>{let t=e.target;if(!t.matches(`.small-product-image`))return;let r=t.src;G.itemMainImage=r,n.mainImage.src=r}},Z=[`HOT`,`NEW`,`TRENDING`,`BEST SELLER`,`LIMITED`],ce=e=>Z[e%Z.length],Q=async()=>{try{F.isLoading=!0,U();let e=await Promise.all([`https://dummyjson.com/products/category/laptops`,`https://dummyjson.com/products/category/smartphones`,`https://dummyjson.com/products/category/tablets`,`https://dummyjson.com/products/category/mobile-accessories`].map(e=>fetch(e))),t=(await Promise.all(e.map(e=>{if(!e.ok)throw Error(`Failed to fetch products`);return e.json()}))).flatMap(e=>e.products).map(e=>{let t=Math.round(e.price*85),n=Math.round(t+t*e.discountPercentage/100);return{id:e.id,title:e.title,description:e.description,category:e.category,price:t,actualPrice:n,badge:ce(e.id),rating:e.rating,stock:e.stock,shippingInformation:e.shippingInformation,availabilityStatus:e.availabilityStatus,reviews:e.reviews,images:e.images,thumbnail:e.thumbnail,discountPercentage:e.discountPercentage}});F.products=t,O.set(`products`,t)}catch(e){throw console.error(`Error fetching products:`,e),Error(`Error fetching products:`,e)}finally{F.isLoading=!1}},$=e=>{t.cartItems=e,O.set(`cartItems`,e),w()},le=()=>{let n=e();n.featuredProducts.addEventListener(`click`,async e=>{let n=e.target.closest(`.add-to-cart-btn`);if(n){let e=Number(n.dataset.id),r=F.products.find(t=>t.id===e);if(t.cartItems.some(t=>t.id===e))$(t.cartItems.map(t=>{if(e===t.id){let e=t.qty+1;return{...t,qty:e}}return t})),A(`Product Added Again To cart`,`${r.title}`);else{let e={id:r.id,category:r.category,title:r.title,description:r.description,price:r.price,images:r.images,qty:1};$([...t.cartItems,e]),A(`Added To cart`,`${r.title}`)}}}),n.productsCardGrid.addEventListener(`click`,e=>{let t=e.target.closest(`.product-card`);if(t&&!e.target.closest(`.add-to-cart-btn`)){let e=Number(t.dataset.id);G.itemDetails=F.products.find(t=>t.id===e),O.set(`productDetails`,G.itemDetails),window.location.href=`/src/pages/productDetailsPage.html`}});let r=n.productsFilter,i=e=>F.products.filter(t=>t.category===e),a={Laptops:`laptops`,Smartphones:`smartphones`,Tablets:`tablets`,Accessories:`mobile-accessories`};r.addEventListener(`change`,()=>{let e=r.value;e===`All`?F.filterdProducts=F.products:F.filterdProducts=i(a[e]),F.selectedCategory=e,V()})},ue=()=>{G.itemDetails=O.get(`productDetails`)},de=()=>{t.cartItems=O.get(`cartItems`,[])},fe=()=>document.getElementById(`home-page`)!==null,pe=()=>document.getElementById(`product-details-page`)!==null,me=()=>document.getElementById(`cart-main-page`)!==null;(async()=>{de(),D(),w(),fe()&&(x(),C(),w(),X(),await Q(),U(),le(),ie(),oe(),W()),me()&&(E(),w(),X(),P(),W()),pe()&&(ue(),ae(),w(),X(),se(),W())})();
+        </div>`},Y=()=>(G.itemDetails=O.get(`productDetails`),G.itemDetails.reviews.map(e=>J(e)).join(``)),ae=()=>{let t=e();t.headerContainer.innerHTML=s(),t.productsDetails.innerHTML=q(),t.footerSection.innerHTML=o();let n=e();n.reviewsCardContainer.innerHTML=Y()},X=()=>{let t=e();document.addEventListener(`click`,e=>{if(e.target.closest(`.closing-nav-outside`)){c.isMenuOpen=!1,C();return}t.headerContainer.contains(e.target)||(c.isMenuOpen=!1,C()),e.target.closest(`.search-input`)||(c.isSearchMenuOpen=!1,S())}),t.menuButton.addEventListener(`click`,()=>{c.isMenuOpen=!c.isMenuOpen,C()}),t.searchInput.forEach(e=>{e.addEventListener(`focus`,()=>{c.isSearchMenuOpen=!0,F.products=O.get(`products`),S()}),e.addEventListener(`input`,e=>{let t=e.target.value.trim().toLowerCase();if(c.searchQuery=t,t===``){c.searchResult=[],S();return}c.searchResult=F.products.filter(e=>{let n=e.title.toLowerCase().includes(t),r=e.category.toLowerCase().includes(t);return n||r}),S()})}),t.searchResult.forEach(e=>{e.addEventListener(`click`,e=>{let t=e.target.closest(`.search-result-cards`),n=Number(t.dataset.id),r=c.searchResult.find(e=>e.id===n);if(r){let e={...r};G.itemDetails=e,O.set(`productDetails`,e),window.location.href=`/src/pages/productDetailsPage.html`}})})},oe=()=>{let t=e();t.newsletterForm.addEventListener(`submit`,e=>{e.preventDefault(),A(`Subscribed!`,`Thank you! ${t.newsLetterInput.value.trim()} has been successfully registered.`,2e3),t.newsletterForm.reset()})},se=()=>{let n=e();n.addToCart.onclick=()=>{let e=G.itemDetails,n={...e,qty:1};t.cartItems.find(t=>t.id===e.id)?(t.cartItems=t.cartItems.map(t=>t.id===e.id?{...t,qty:t.qty+1}:t),A(`Product Again Added To Cart`,`${n.title}`)):(t.cartItems=[...t.cartItems,n],A(`Added To Cart`,`${n.title}`)),O.set(`cartItems`,t.cartItems),w()},n.imageGallary.onpointerover=e=>{let t=e.target;if(!t.matches(`.small-product-image`))return;let r=t.src;G.itemMainImage=r,n.mainImage.src=r}},Z=[`HOT`,`NEW`,`TRENDING`,`BEST SELLER`,`LIMITED`],ce=e=>Z[e%Z.length],Q=async()=>{try{F.isLoading=!0,U();let e=await Promise.all([`https://dummyjson.com/products/category/laptops`,`https://dummyjson.com/products/category/smartphones`,`https://dummyjson.com/products/category/tablets`,`https://dummyjson.com/products/category/mobile-accessories`].map(e=>fetch(e))),t=(await Promise.all(e.map(e=>{if(!e.ok)throw Error(`Failed to fetch products`);return e.json()}))).flatMap(e=>e.products).map(e=>{let t=Math.round(e.price*85),n=Math.round(t+t*e.discountPercentage/100);return{id:e.id,title:e.title,description:e.description,category:e.category,price:t,actualPrice:n,badge:ce(e.id),rating:e.rating,stock:e.stock,shippingInformation:e.shippingInformation,availabilityStatus:e.availabilityStatus,reviews:e.reviews,images:e.images,thumbnail:e.thumbnail,discountPercentage:e.discountPercentage}});F.products=t,O.set(`products`,t)}catch(e){throw console.error(`Error fetching products:`,e),Error(`Error fetching products:`,e)}finally{F.isLoading=!1}},$=e=>{t.cartItems=e,O.set(`cartItems`,e),w()},le=()=>{let n=e();n.featuredProducts.addEventListener(`click`,async e=>{let n=e.target.closest(`.add-to-cart-btn`);if(n){let e=Number(n.dataset.id),r=F.products.find(t=>t.id===e);if(t.cartItems.some(t=>t.id===e))$(t.cartItems.map(t=>{if(e===t.id){let e=t.qty+1;return{...t,qty:e}}return t})),A(`Product Added Again To cart`,`${r.title}`);else{let e={id:r.id,category:r.category,title:r.title,description:r.description,price:r.price,images:r.images,qty:1};$([...t.cartItems,e]),A(`Added To cart`,`${r.title}`)}}}),n.productsCardGrid.addEventListener(`click`,e=>{let t=e.target.closest(`.product-card`);if(t&&!e.target.closest(`.add-to-cart-btn`)){let e=Number(t.dataset.id);G.itemDetails=F.products.find(t=>t.id===e),O.set(`productDetails`,G.itemDetails),window.location.href=`/nextbyte-e-commerce/src/pages/productDetailsPage.html`}});let r=n.productsFilter,i=e=>F.products.filter(t=>t.category===e),a={Laptops:`laptops`,Smartphones:`smartphones`,Tablets:`tablets`,Accessories:`mobile-accessories`};r.addEventListener(`change`,()=>{let e=r.value;e===`All`?F.filterdProducts=F.products:F.filterdProducts=i(a[e]),F.selectedCategory=e,V()})},ue=()=>{G.itemDetails=O.get(`productDetails`)},de=()=>{t.cartItems=O.get(`cartItems`,[])},fe=()=>document.getElementById(`home-page`)!==null,pe=()=>document.getElementById(`product-details-page`)!==null,me=()=>document.getElementById(`cart-main-page`)!==null;(async()=>{de(),D(),w(),fe()&&(x(),C(),w(),X(),await Q(),U(),le(),ie(),oe(),W()),me()&&(E(),w(),X(),P(),W()),pe()&&(ue(),ae(),w(),X(),se(),W())})();
