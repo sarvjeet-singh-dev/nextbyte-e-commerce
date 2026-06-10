@@ -22,7 +22,7 @@ export const footerEvents = () => {
 
             categoriesProductsRender();
 
-            window.location.href = "/nextbyte-e-commerce#featured-products";
+            window.location.href = "/nextbyte-e-commerce/index.html#featured-products";
         };
 
         // Footer Social Media Links

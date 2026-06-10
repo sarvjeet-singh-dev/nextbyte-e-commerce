@@ -16,7 +16,7 @@ export const Navbar = () => {
           </button>
 
           <a
-            href="/index.html"
+            href="/nextbyte-e-commerce/index.html"
             class="text-red-400 font-bold tracking-wide text-lg sm:text-xl whitespace-nowrap"
           >
             ⚡ NEXBYTE
