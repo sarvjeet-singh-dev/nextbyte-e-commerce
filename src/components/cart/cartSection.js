@@ -60,7 +60,7 @@ export const cartSection = () => {
                 <button id="proceed-to-checkout" class="w-full mt-8 bg-red-500 hover:bg-red-600 text-white py-4 rounded-xl font-semibold transition-all duration-300 active:scale-95 cursor-pointer">Proceed To Checkout</button>
 
                 <!-- Continue Shopping -->
-                <a href="/nextbyte-e-commerce/index.html#featured-products" class="w-full block text-center mt-4 border border-white/10 hover:border-red-400 py-4 rounded-xl transition-all duration-300 cursor-pointer">Continue Shopping</a>
+                <a href="/nextbyte-e-commerce/#featured-products" class="w-full block text-center mt-4 border border-white/10 hover:border-red-400 py-4 rounded-xl transition-all duration-300 cursor-pointer">Continue Shopping</a>
 
             </div>
 

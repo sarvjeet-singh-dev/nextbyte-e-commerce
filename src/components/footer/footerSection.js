@@ -20,13 +20,13 @@ export const footerSection = () => {
 
           <div class="flex items-center gap-4 text-xl text-gray-300">
 
-            <button data-name="Instagram" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-instagram-fill"></i></button>
+            <a href="#" data-name="Instagram" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-instagram-fill"></i></a>
 
-            <button data-name="Twitter" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-twitter-x-line"></i></button>
+            <a href="#" data-name="Twitter" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-twitter-x-line"></i></a>
 
-            <button data-name="Youtube" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-youtube-fill"></i></button>
+            <a href="#" data-name="Youtube" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-youtube-fill"></i></a>
 
-            <a href="https://github.com/sarvjeet-singh-dev/nextbyte-e-commerce.git" data-name="Github" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-github-fill"></i></a>
+            <a href="https://github.com/sarvjeet-singh-dev/nextbyte-e-commerce.git" target="blank" data-name="Github" class="social-links hover:text-red-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"><i class="ri-github-fill"></i></a>
 
           </div>
         </div>
@@ -52,11 +52,11 @@ export const footerSection = () => {
           <h4 class="text-xl font-semibold text-white">Support</h4>
 
           <div class="flex flex-col gap-3">
-            <a href="/nextbyte-e-commerce/index.html#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
-            <a href="/nextbyte-e-commerce/index.html#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
+            <a href="/nextbyte-e-commerce/#newsletter" class="text-gray-400 hover:text-red-400 transition-all duration-300">Contact</a>
+            <a href="/nextbyte-e-commerce/#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">FAQ</a>
+            <a href="/nextbyte-e-commerce/#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Shipping</a>
+            <a href="/nextbyte-e-commerce/#why-choose-us"class="text-gray-400 hover:text-red-400 transition-all duration-300">Returns</a>
+            <a href="/nextbyte-e-commerce/#why-choose-us" class="text-gray-400 hover:text-red-400 transition-all duration-300">Privacy Policy</a>
           </div>
 
         </div>

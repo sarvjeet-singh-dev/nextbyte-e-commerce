@@ -19,7 +19,7 @@ export const categoryEvents = () => {
 
         categoriesProductsRender();
         
-        window.location.href = "#featured-products";
+        document.getElementById("featured-products") ?.scrollIntoView({ behavior: "smooth" });
 
     });
 };

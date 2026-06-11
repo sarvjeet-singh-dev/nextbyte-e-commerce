@@ -16,21 +16,36 @@ export const footerEvents = () => {
 
             e.preventDefault();
 
+            const isIndexPage = () => document.getElementById("home-page") !== null;
+
             const categoryName = footerShopLinks.dataset.category;
+            
+            
+            
+            if(isIndexPage()){
+                
+                productState.selectedCategory = categoryName;
+    
+                categoriesProductsRender();
+                
+                document.getElementById("featured-products")?.scrollIntoView({behavior: "smooth"});
+                
+            }else{
+                
+                sessionStorage.setItem(
+                    "selectedCategory",
+                    categoryName
+                );
 
-            productState.selectedCategory = categoryName;
-
-            categoriesProductsRender();
-
-            window.location.href = "/nextbyte-e-commerce/index.html#featured-products";
+                window.location.href =
+                    "/nextbyte-e-commerce/#featured-products";
+            }
         };
 
         // Footer Social Media Links
         const footerSocialLinks = e.target.closest(".social-links");
 
         if(footerSocialLinks){
-
-            e.preventDefault();
 
             const btnName = footerSocialLinks.dataset.name;
 

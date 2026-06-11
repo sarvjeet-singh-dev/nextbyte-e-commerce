@@ -14,6 +14,7 @@ import { productApi } from "./services/productsApi";
 import { restoreCart } from "./services/restoreCart";
 import { totalCartPrice } from "./services/totalCartPrice";
 import { cartState } from "./state/cartState";
+import { restoreSelectedCategory } from "./utils/restoreSelectedCategory";
 import { storage } from "./utils/storage";
 
 const isIndexPage = () => document.getElementById("home-page") !== null;
@@ -36,7 +37,8 @@ const inti = async() => {
         productEvents();
         categoryEvents();
         newsLetterEvents();
-        footerEvents()
+        footerEvents();
+        restoreSelectedCategory()
     };
 
     

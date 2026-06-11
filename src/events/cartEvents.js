@@ -18,6 +18,8 @@ const updatedCart = (products) => {
 const proceedToCheckout = () => {
     const elements = getElement();
 
+    if(!elements.proceedToCheckoutBtn)return;
+
     elements.proceedToCheckoutBtn.addEventListener("click",()=>{
         showNotification("This Page is in Development Phase","You Can Check Other options")
     });
