@@ -235,5 +235,4 @@ This structure improves scalability and maintainability.
 ## Live Demo
 
 
-
-[Add Live Demo URL Here]
+https://sarvjeet-singh-dev.github.io/nextbyte-e-commerce/
